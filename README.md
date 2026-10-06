@@ -174,6 +174,20 @@ bun run app
 
 This source path requires Bun 1.4.0. The command installs locked dependencies and opens the app.
 
+### Build the Windows installer from a clone
+
+On Windows, clone the repository and run `build-windows.bat` from the repository root. The script
+downloads the pinned Bun 1.4.0 Windows runtime, installs the locked dependencies, verifies the
+project, and builds the NSIS installer.
+
+```bat
+git clone https://github.com/LckOFc/Codex-Web-Local.git
+cd Codex-Web-Local
+build-windows.bat
+```
+
+The generated `.exe` is placed in `launcher\artifacts\`.
+
 ```bash
 bun run app
 bun run dev:launcher
