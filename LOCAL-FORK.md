@@ -1,6 +1,6 @@
 # Codex Web Local
 
-Versão derivada localmente de miuuyy/codex-chatgpt-web v6.1.4 (MIT). Não é um produto oficial da OpenAI. A licença original é preservada em LICENSE.
+Versão derivada localmente de miuuyy/codex-chatgpt-web v6.1.4 (MIT), mantida em https://github.com/LckOFc/Codex-Web-Local. Não é um produto oficial da OpenAI. A licença original é preservada em LICENSE.
 
 Mantém as capacidades e limitações do projeto original: modelos ChatGPT Web no Codex, streaming, contexto e imagens, modo browser-only, integração Full harness por MCP/tunnel e modo manual.
 
